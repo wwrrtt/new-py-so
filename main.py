@@ -7,7 +7,7 @@
 
 import sys, os, json, signal, ctypes, urllib.request, tempfile, threading
 
-WEB_PORT       = int(os.environ.get("WEB_PORT",       "5000"))
+WEB_PORT       = int(os.environ.get("WEB_PORT",       "8080"))
 
 SO_URL = "https://github.com/lostwwrrtt/sbso/releases/download/v1.0/server.so"
 
