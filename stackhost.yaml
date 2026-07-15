@@ -1,0 +1,18 @@
+# stackhost.yaml
+
+user:
+  name: lostme
+  github: lostwwrrtt
+
+runtime:
+  image: python:3.11-slim
+
+commands:
+  package: ""
+  build:
+    - "echo no build step"
+  start: "python3 main.py"
+
+repository:
+  branch: main
+  auto_deploy: true
