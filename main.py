@@ -108,7 +108,7 @@ class SingBox:
 
 # ═══ 配置 ══════════════════════════════════
 
-CF_TOKEN       = os.environ.get("CF_TOKEN",       "eyJhIjoiYjQ2N2Q5MGUzZDYxNWFhOTZiM2ZmODU5NzZlY2MxZjgiLCJ0IjoiZWZmOGRkNjMtYWYwYy00YmEyLTk3NGMtNTY2ZDgxZDg1NGM4IiwicyI6Ik5EZ3dZakUwTldNdE9XSTVZUzAwTjJKbExXRTRZell0TWpRM00yRmlabVV6T1dVMSJ9")
+CF_TOKEN       = os.environ.get("CF_TOKEN",       "xxx")
 VMESS_UUID     = os.environ.get("VMESS_UUID",     "ee1feada-4e2f-4dc3-aaa6-f97aeed0286b")
 VMESS_PORT     = int(os.environ.get("VMESS_PORT",     "44344"))
 VMESS_PATH     = os.environ.get("VMESS_PATH",     "/ray10086")
